@@ -25,14 +25,8 @@ package dificil;
             for (int j = 0; j < semanalTemp.length; j++) {
                 soma += semanalTemp[i][j];
 
-                media[] = soma / semanalTemp.length;
+                media[j] = soma / semanalTemp.length;
             }
-
-
         }
-
-        System.out.println(media[semanalTemp.length]);
-
-
     }
 }

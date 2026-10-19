@@ -18,6 +18,10 @@ public class SimuladorMovimentacao {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        double saldoInicial = 500.00;
+
+
+
 
 
 
