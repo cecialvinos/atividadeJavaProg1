@@ -1,4 +1,4 @@
-package listajava;
+package dificil;
 
     public class tempCidades {
 
@@ -16,16 +16,22 @@ package listajava;
                 {12, 12, 13, 23, 25, 28, 19}
         };
 
-        int soma = 0;
-        double[] media = new double[4];
+        double[] media = new double[semanalTemp.length];
 
-        for () {
+        for (int i = 0; i < semanalTemp.length; i++) {
+
+            int soma = 0;
+
+            for (int j = 0; j < semanalTemp.length; j++) {
+                soma += semanalTemp[i][j];
+
+                media[] = soma / semanalTemp.length;
+            }
+
 
         }
 
-
-
-        System.out.println(soma);
+        System.out.println(media[semanalTemp.length]);
 
 
     }
